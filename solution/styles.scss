@@ -12,22 +12,16 @@ $darkBlue: hsl(218, 44%, 22%);
 
 #root {
     background:$lightGray;
-    max-width: 1440px;
+
 }
 
+
 .container {
-    width: 800px;
-    height: 1600px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
     background-color: $darkBlue;
 }
 
-.component {
-    background-color: $grayishBlue;
-    position: absolute;
-    width: 320px;
-    height: 500px;
-    font-family: 'Outfit', sans-serif;
-    top: 50%;
-    left: 50%;
-}

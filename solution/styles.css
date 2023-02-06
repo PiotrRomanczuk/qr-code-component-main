@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 #root {
   background: hsl(212deg, 45%, 89%);
-  max-width: 1440px;
 }
 
 .container {
   width: 800px;
-  height: 1600px;
+  height: 100%;
   position: relative;
   background-color: hsl(218deg, 44%, 22%);
 }
