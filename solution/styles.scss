@@ -10,9 +10,8 @@ $grayishBlue: hsl(220, 15%, 55%);
 $darkBlue: hsl(218, 44%, 22%);
 
 
-#root {
+body {
     background:$lightGray;
-
 }
 
 
@@ -21,7 +20,8 @@ $darkBlue: hsl(218, 44%, 22%);
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
-    background-color: $darkBlue;
+    width: 210px;
+    height: 320px;
+    background-color: $white;
 }
 
