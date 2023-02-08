@@ -10,18 +10,52 @@ $grayishBlue: hsl(220, 15%, 55%);
 $darkBlue: hsl(218, 44%, 22%);
 
 
-body {
-    background:$lightGray;
+html {
+    height: 100%;
 }
 
+body {
+  background: hsl(212deg, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  min-width: 100%;
+}
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 210px;
-    height: 320px;
-    background-color: $white;
+  height: 500px;
+  width: 320px;
+  background-color: $white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  flex-direction: column;
+  padding: 15px;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  // margin: 10px;
+  border-radius: 10px;
+}
+
+
+.text {
+  font-family: Outfit;
+}
+
+.text.high {
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.text.low {
+  font-size: 15px;
+  margin: 15px 35px 10px 35px;
+  color: $grayishBlue
+}
